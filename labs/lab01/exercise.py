@@ -1,5 +1,5 @@
 # labs/lab01/exercise.py
 # Starter code for Lab 01
-print("Hello world, Lab 0134567890")
+print("Hello world, Lab 01345678900")
 
 
