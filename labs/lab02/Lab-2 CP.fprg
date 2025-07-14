@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Lab2 CP"/>
+        <attribute name="authors" value="Batrisyia Balqis"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-14 11:45:49 AM"/>
+        <attribute name="created" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0xNDsxMTo0NDo0NSBBTTszODYy"/>
+        <attribute name="edited" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0xNDsxMTo0NTo0OSBBTTsyOzM5NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>
