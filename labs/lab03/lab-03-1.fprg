@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-1"/>
+        <attribute name="authors" value="Batrisyia Balqis"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-21 11:36:05 AM"/>
+        <attribute name="created" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0yMTsxMToyMjoyNSBBTTszODU0"/>
+        <attribute name="edited" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0yMTsxMTozNjowNSBBTTszOzM5Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mealPrice" type="Integer" array="False" size=""/>
+            <input variable="mealPrice"/>
+            <declare name="finalPrice" type="Integer" array="False" size=""/>
+            <assign variable="finalPrice" expression="mealPrice + (mealPrice * 0.15)"/>
+            <output expression="finalPrice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
