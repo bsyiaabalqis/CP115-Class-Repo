@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-3"/>
+        <attribute name="authors" value="Batrisyia Balqis"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-21 01:03:30 PM"/>
+        <attribute name="created" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0yMTsxMTo1MToyMyBBTTszODU0"/>
+        <attribute name="edited" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0yMTswMTowMzozMCBQTTszOzM5NzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="BasicRate, ServiceCharge, TotalPerNight" type="Real" array="False" size=""/>
+            <assign variable="BasicRate" expression="250"/>
+            <assign variable="ServiceCharge" expression="15/100 * BasicRate"/>
+            <assign variable="TotalPerNight" expression="BasicRate + ServiceCharge"/>
+            <declare name="NumberOfNights" type="Integer" array="False" size=""/>
+            <input variable="NumberofNights"/>
+            <declare name="TotalPayment" type="Real" array="False" size=""/>
+            <assign variable="TotalPayment" expression="TotalPerNight * NumberOfNights"/>
+            <output expression="TotalPayment" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
