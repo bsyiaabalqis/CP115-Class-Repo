@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-5"/>
+        <attribute name="authors" value="Batrisyia Balqis"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-22 12:31:02 AM"/>
+        <attribute name="created" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0yMjsxMjoxODo0NyBBTTszODY1"/>
+        <attribute name="edited" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0yMjsxMjozMTowMiBBTTsxOzM5NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numberOfCookies" type="Integer" array="False" size=""/>
+            <input variable="numberOfCookies"/>
+            <declare name="Calories" type="Real" array="False" size=""/>
+            <assign variable="Calories" expression="300 / 10"/>
+            <declare name="TotalCalories" type="Real" array="False" size=""/>
+            <assign variable="TotalCalories" expression="numberOfCookies * Calories"/>
+            <output expression="&quot;Total Calories is &quot; &amp; TotalCalories" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

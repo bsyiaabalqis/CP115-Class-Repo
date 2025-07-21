@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-4"/>
+        <attribute name="authors" value="Batrisyia Balqis"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-22 12:18:30 AM"/>
+        <attribute name="created" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0yMjsxMjowODowNCBBTTszODU3"/>
+        <attribute name="edited" value="QmF0cmlzeWlhIEJhbHFpcztMQVBUT1AtSkUwQzNEMVY7MjAyNS0wNy0yMjsxMjoxODozMCBBTTsxOzM5NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="internationalfax" type="Integer" array="False" size=""/>
+            <input variable="internationalfax"/>
+            <declare name="servicecharge" type="Integer" array="False" size=""/>
+            <declare name="perpage" type="Integer" array="False" size=""/>
+            <assign variable="servicecharge" expression="3.00"/>
+            <assign variable="perpage" expression="0.20"/>
+            <assign variable="Totalprice" expression="(internationalfax * perpage)+ servicecharge"/>
+            <output expression="&quot;Total price is(RM)&quot; &amp; Totalprice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
