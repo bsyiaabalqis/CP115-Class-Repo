@@ -1,8 +1,7 @@
-full_name=  'Ali Rahman'
-print(full_name)
-uppercase_name= "ALI RAHMAN"
+name=  input ("Enter your full name")
+print(name)
+uppercase_name= name.upper()
 print(uppercase_name) 
-lowercase_name= 'Ali rahman'
+lowercase_name= name.lower()
 print(lowercase_name)
-name_length= 10
-print(name_length)
+print(len(name))
