@@ -1,0 +1,20 @@
+# mobile line servive monthly usage and bills (Batrisyia)
+
+# get user input for monthly usage
+monthly_usage = input("Enter your monthly usage")
+monthly_usage = int(monthly_usage)
+
+# determine discount based on usage per month
+if monthly_usage <= 100:
+    discount = 0.05
+elif monthly_usage < 50:
+    discount = 0.0
+else:
+    monthly_usage >= 101
+    discount = 0.20    
+
+# calculate total bill after discount
+total_bill = monthly_usage - ( monthly_usage * discount)
+
+print ("Your total bill is:", total_bill)
+   
