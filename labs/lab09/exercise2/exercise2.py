@@ -4,7 +4,7 @@ overtime_hours = int(input())
 tax_status = input()
 
 # TODO your code here
-if base_salary >= 5000 and "Single" 
+if base_salary >= 5000 and tax_status == "Single":
     if tax_status == "single":
         tax_rate = 0.22
     else:
