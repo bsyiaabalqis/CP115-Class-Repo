@@ -39,7 +39,7 @@ if show_time > 18:
 
 # Apply student discount (10% off final price, weekdays only)
 if day_type == "Weekday" and is_student == "Yes":
-    final_price = final_price * 0.9
+    final_price = final_price - (final_price * 0.10)
 
 print(base_price)
 print(final_price)
