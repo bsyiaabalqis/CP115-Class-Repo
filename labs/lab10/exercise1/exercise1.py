@@ -12,19 +12,14 @@ elif position == "Staff":
 else: 
     hourly_rate = 0
 
-# Calculate the overtime pay per hour
-overtime_rate_per_hour = hourly_rate * 1.5
+# Calculate the base overtime pay (without the bonus)
+total_pay =(hourly_rate * 1.5) * overtime_hours
 
-# Add the weekend bonus if applicable
-if is_weekend.lower() == 'yes':
-    overtime_rate_per_hour += 5
+# Calculate the weekend bonus separate;y and add it to the total
+if is_weekend.lower()== 'yes' :
+    weekend_bonus = 5 * overtime_hours
+    total_pay += weekend_bonus 
 
-# Calculate the total overtime pay
-overtime_pay = overtime_rate_per_hour * overtime_hours
-
-# The total pay is the overtime pay, assuming no regular hours are being calculated here
-total_pay = overtime_pay
    
 print(hourly_rate)
-print(overtime_pay)
 print(total_pay)
