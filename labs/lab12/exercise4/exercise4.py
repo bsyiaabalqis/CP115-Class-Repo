@@ -12,6 +12,7 @@ while score_input != "end":
     else: 
         break
 
+
 print(passing_count)
 print(failing_count)
 print(f"{pass_rate:.2f}")
