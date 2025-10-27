@@ -1,5 +1,6 @@
 total = 0
 count = 0
+cost = 0
 
 price = float(input("Enter the price (or a negative number to stop):")) #prime input
 

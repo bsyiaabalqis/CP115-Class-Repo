@@ -13,7 +13,7 @@ while True:
         total_age += age
         age_count += 1
     except ValueError:
-        print("Please enter a valid number or 'done' to finish")
+        print("Please enter a valid number or 'done' to finish:")
         continue
 
 if age_count > 0:
